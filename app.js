@@ -7,6 +7,9 @@ const app = express();
 // Make everything inside of public/ available
 app.use(express.static('public'));
 
+// so it knows where to look.
+app.set('views', __dirname + '/views');
+
 // our first Route
 // ...
 // our first Route:
@@ -18,6 +21,9 @@ app.get('/about', (request, response, next) =>
 );
 app.get('/works', (request, response, next) =>
   response.sendFile(__dirname + '/views/works-page.html')
+);
+app.get('/gallery', (request, response, next) =>
+  response.sendFile(__dirname + '/views/gallery-page.html')
 );
 // cat route:
 

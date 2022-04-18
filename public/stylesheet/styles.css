@@ -1,4 +1,48 @@
 body {
-  color: blue;
-  background-color: black;
+  color: black;
+  height: 95vh;
+}
+
+.eminemImgs {
+  height: 100px;
+  width: 100px;
+}
+.home_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.home_container h1 {
+  align-self: flex-start;
+}
+.home_container a {
+  align-self: flex-end;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: black;
+  text-decoration: none;
+}
+
+.about_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.about_container a {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: black;
+  text-decoration: none;
+  line-height: 30px;
+}
+.works_container a {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: black;
+  text-decoration: none;
 }
