@@ -4,8 +4,14 @@ body {
 }
 
 .eminemImgs {
-  height: 100px;
-  width: 100px;
+  height: 400px;
+  width: 400px;
+  /* padding-bottom: 20px; */
+  margin-bottom: 20px;
+}
+.eminemMainImg {
+  height: 800px;
+  width: 800px;
 }
 .home_container {
   display: flex;
@@ -39,6 +45,11 @@ body {
   color: black;
   text-decoration: none;
   line-height: 30px;
+}
+.works_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .works_container a {
   font-weight: bold;
